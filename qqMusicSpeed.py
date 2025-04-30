@@ -8,7 +8,7 @@ ua = "Mozilla/5.0 (Linux; Android 11; M2012K10C Build/RP1A.200720.011; wv) Apple
 
 if __name__ == "__main__":
     QQtoken = 'qqkey'         #从环境变量读取到key#qq音乐cookie，从环境变量获取
-    key = os.getenv(QQtoken)
+    key = os.getenv("QQtoken")
     if not key:
         print(f'⛔️未获取到ck变量：请检查变量 {key} 是否填写')
         exit(0)
