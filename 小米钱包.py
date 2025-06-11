@@ -262,8 +262,8 @@ if __name__ == "__main__":
             'userId': '2659312913'
         },
         {   # 账号2
-            'passToken': 'V1:DXmurwq2/R1BHTELu6obCf0wpqL43LzypR4M8OQlLVr0GES1DwtBVja5e1mAQDlSkStW9YMpYOLhxK11wri/53hofBQWSpl+ALB7GyYRY9iMOcSZXVv18LVT+LNmMFfQ+UMvV0V5Ozd/zBQcF9hEMjai99n8SQUA0HFPzVRHCeOA7iQkcGnjsZB5GJ3VnVA1GPk++yUHNW2T/0B4ml6NuknBNMN9ujxvHOWGfoGq/458wCfNcFNhFUnLHNaI2xL7jJd+wwlCr9Y/tSgevkCH+eWEsDT7WSSMNTEQ80y2kgS0PxA+S6vOdXuP2HmHRUGnIdnpPlfwGrXU9+3JKaWkjg==',
-            'userId': '3082821392'
+            'passToken': '',
+            'userId': ''
         }
         # 可继续添加更多账号...
     ]
