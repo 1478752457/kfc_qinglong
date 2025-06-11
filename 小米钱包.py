@@ -258,7 +258,7 @@ if __name__ == "__main__":
     # 多账号配置区 ##################################
     ORIGINAL_COOKIES = [
         {   # 账号1
-            'passToken': 'vKCn0n6r/Nnnc/5JJfAyMxPDFXNRmTs/3kH8fHAgC5qpg0Zj+qE8s61iKt75ZNAtH3PqYc6kUk1iEMBbVfe/Iqng5tE7Z+Faqzczl1fGFeQHbbGDR2fC8pb5zpCvr8BnP1Q87hCrR2/kJkVzNOuSB80W5jGesx0Zib3FnPhahx+orLUpwGedimqx3PuOnt6yBVlqw4QsZtBhBijc6SEYgjwgHWneR97ZuxB6nLVVZCQ=',
+            'passToken': 'V1:DXmurwq2/R1BHTELu6obCf0wpqL43LzypR4M8OQlLVr0GES1DwtBVja5e1mAQDlSkStW9YMpYOLhxK11wri/53hofBQWSpl+ALB7GyYRY9iMOcSZXVv18LVT+LNmMFfQ+UMvV0V5Ozd/zBQcF9hEMjai99n8SQUA0HFPzVRHCeOA7iQkcGnjsZB5GJ3VnVA1GPk++yUHNW2T/0B4ml6NuknBNMN9ujxvHOWGfoGq/458wCfNcFNhFUnLHNaI2xL7jJd+wwlCr9Y/tSgevkCH+eWEsDT7WSSMNTEQ80y2kgS0PxA+S6vOdXuP2HmHRUGnIdnpPlfwGrXU9+3JKaWkjg==',
             'userId': '2659312913'
         },
         {   # 账号2
