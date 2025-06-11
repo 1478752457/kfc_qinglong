@@ -258,8 +258,8 @@ if __name__ == "__main__":
     # 多账号配置区 ##################################
     ORIGINAL_COOKIES = [
         {   # 账号1
-            'passToken': 'xxxxx',
-            'userId': 'xxxxx'
+            'passToken': 'vKCn0n6r/Nnnc/5JJfAyMxPDFXNRmTs/3kH8fHAgC5qpg0Zj+qE8s61iKt75ZNAtH3PqYc6kUk1iEMBbVfe/Iqng5tE7Z+Faqzczl1fGFeQHbbGDR2fC8pb5zpCvr8BnP1Q87hCrR2/kJkVzNOuSB80W5jGesx0Zib3FnPhahx+orLUpwGedimqx3PuOnt6yBVlqw4QsZtBhBijc6SEYgjwgHWneR97ZuxB6nLVVZCQ=',
+            'userId': '2659312913'
         },
         {   # 账号2
             'passToken': 'xxxxx',
