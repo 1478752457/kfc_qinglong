@@ -306,19 +306,30 @@ def generate_notification(account_id, rnl_instance):
 
 
 if __name__ == "__main__":
-    # 多账号配置区 ##################################
-    ORIGINAL_COOKIES = [
-        {   # 账号1
-            'passToken': 'xxxxxxx',
-            'userId': 'xxxxxxxx'
-        },
-        {   # 账号2
-            'passToken': 'xxxxxxxxxx',
-            'userId': 'xxxxxxxxx'
-        }
-        # 可继续添加更多账号...
-    ]
-    # 结束配置 ######################################
+    # ================= 多账号配置区 ================= #
+    
+    # 从环境变量中读取小米账号信息
+    raw_cookies = os.getenv("XIAOMI_COOKIES")
+    
+    if not raw_cookies:
+        raise ValueError("❌ 环境变量 XIAOMI_COOKIES 未设置，请前往青龙面板配置！")
+
+    # 解析为列表字典结构
+    ORIGINAL_COOKIES = []
+    for item in raw_cookies.split('@'):
+        if '&' in item:
+            pass_token, user_id = item.split('&', 1)
+            ORIGINAL_COOKIES.append({
+                'passToken': pass_token.strip(),
+                'userId': user_id.strip()
+            })
+        else:
+            print(f"⚠️ 忽略无效格式: {item}")
+
+    # 打印加载结果
+    print("✅ 加载账号信息成功，共加载 {} 个账号".format(len(ORIGINAL_COOKIES)))
+
+    # ================= 结束配置 =================== #
 
     # 构建完整通知消息
     full_notification = "📺【小米钱包任务执行结果】\n"
